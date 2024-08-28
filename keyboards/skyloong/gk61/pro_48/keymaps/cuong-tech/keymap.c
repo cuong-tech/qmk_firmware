@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_TAB,   KC_Q,       KC_W,       KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       KC_LBRC,  KC_RBRC,  KC_BSPC,
         KC_ESC,  LCTL_T(KC_A),       LALT_T(KC_S),       LSFT_T(KC_D),     LGUI_T(KC_F),     KC_G,     KC_H,     LGUI_T(KC_J),     LSFT_T(KC_K),     LALT_T(KC_L),     LCTL_T(KC_SCLN),    KC_QUOT,            KC_ENT,
         KC_LSFT,  LGUI_T(KC_Z),       KC_X,       KC_C,     KC_V,     KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
-        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_V,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
+        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_ESC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
     ),
 
     [1] = LAYOUT_all(
@@ -63,23 +63,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_TAB,   KC_Q,       KC_W,       KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       KC_LBRC,  KC_RBRC,  KC_BSPC,
         KC_ESC,  LGUI_T(KC_A),       LALT_T(KC_S),       LSFT_T(KC_D),     LCTL_T(KC_F),     KC_G,     KC_H,     LCTL_T(KC_J),     LSFT_T(KC_K),     LALT_T(KC_L),     LGUI_T(KC_SCLN),    KC_QUOT,            KC_ENT,
         KC_LSFT,  LGUI_T(KC_Z),       KC_X,       KC_C,     KC_V,     KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
-        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_V,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
+        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_ESC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
     ),
 
     [2] = LAYOUT_all(
          KC_GRV,   KC_1,       KC_2,       KC_3,     KC_4,     KC_5,     KC_6,     KC_7,     KC_8,     KC_9,     KC_0,       KC_MINS,  KC_EQL,   KC_BSLS,
-         KC_TAB,   KC_Q,       KC_W,       KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       KC_LBRC,  KC_RBRC,  KC_BSPC,
-        KC_ESC,  LCTL_T(KC_A),       LALT_T(KC_S),       LSFT_T(KC_D),     LGUI_T(KC_F),     KC_G,     KC_H,     LGUI_T(KC_J),     LSFT_T(KC_K),     LALT_T(KC_L),     LCTL_T(KC_SCLN),    KC_QUOT,            KC_ENT,
-        KC_LSFT,  LGUI_T(KC_Z),       KC_X,       KC_C,     KC_V,     KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
-        KC_LALT,  KC_LCTL,    KC_LGUI,             KC_SPC,   KC_SPC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
+         KC_TAB,  KC_B,       KC_L,       KC_D,     KC_W,     KC_Z,     KC_QUOT,     KC_F,     KC_O,     KC_U,     KC_J,       KC_LBRC,  KC_RBRC,  KC_BSPC,
+        KC_ESC,  LCTL_T(KC_N),       LALT_T(KC_R),       LSFT_T(KC_T),     LGUI_T(KC_S),     KC_G,     KC_Y,     LGUI_T(KC_H),     LSFT_T(KC_A),     LALT_T(KC_E),     LCTL_T(KC_I),    KC_SCLN,            KC_ENT,
+        KC_LSFT,  KC_Q,       KC_X,       KC_M,     KC_C,     KC_V,     KC_K,     KC_P,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
+        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_ESC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
     ),
 
     [3] = LAYOUT_all(
          KC_GRV,   KC_1,       KC_2,       KC_3,     KC_4,     KC_5,     KC_6,     KC_7,     KC_8,     KC_9,     KC_0,       KC_MINS,  KC_EQL,   KC_BSLS,
-         KC_TAB,   KC_Q,       KC_W,       KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       KC_LBRC,  KC_RBRC,  KC_BSPC,
-        KC_ESC,  LCTL_T(KC_A),       LALT_T(KC_S),       LSFT_T(KC_D),     LGUI_T(KC_F),     KC_G,     KC_H,     LGUI_T(KC_J),     LSFT_T(KC_K),     LALT_T(KC_L),     LCTL_T(KC_SCLN),    KC_QUOT,            KC_ENT,
-        KC_LSFT,  LGUI_T(KC_Z),       KC_X,       KC_C,     KC_V,     KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
-        KC_LALT,  KC_LCTL,    KC_LGUI,             KC_SPC,   KC_SPC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
+         KC_TAB,  KC_B,       KC_L,       KC_D,     KC_W,     KC_Z,     KC_QUOT,     KC_F,     KC_O,     KC_U,     KC_J,       KC_LBRC,  KC_RBRC,  KC_BSPC,
+        KC_ESC,  LGUI_T(KC_N),       LALT_T(KC_R),       LSFT_T(KC_T),     LCTL_T(KC_S),     KC_G,     KC_Y,     LCTL_T(KC_H),     LSFT_T(KC_A),     LALT_T(KC_E),     LGUI_T(KC_I),    KC_SCLN,            KC_ENT,
+        KC_LSFT,  KC_Q,       KC_X,       KC_M,     KC_C,     KC_V,     KC_K,     KC_P,     KC_COMM,  KC_DOT,   KC_SLSH,    KC_RSFT,
+        KC_LALT,  KC_LCTL,    KC_LGUI,             LT(5, KC_ENT),   KC_ESC,     KC_MUTE,               LT(4, KC_SPC),  CW_TOGG,      KC_APP,     KC_RCTL,               MO(6)
     ),
 
     [4] = LAYOUT_all(
@@ -108,18 +108,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [1] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [2] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [3] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [4] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [5] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-    [6] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
-};
+// const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
+//     [0] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [1] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [2] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [3] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [4] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [5] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+//     [6] = { ENCODER_CCW_CW(KC_VOLU, KC_VOLD) },
+// };
 
 const uint16_t PROGMEM backspace_combo[]     = {KC_M, KC_COMM, COMBO_END};
+const uint16_t PROGMEM backspace_combo_gra[]     = {KC_P, KC_COMM, COMBO_END};
 
 combo_t                key_combos[]            = {
-    COMBO(backspace_combo, DELETE_WORD),
+    // COMBO(backspace_combo, DELETE_WORD),
+    COMBO(backspace_combo, KC_BSPC),
+    COMBO(backspace_combo_gra, KC_BSPC),
 };
